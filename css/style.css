@@ -3,6 +3,7 @@ html{
 }
 body{
 	width: 100%;
+	background-color: #fff;
 }
 
 /*-----------------------HEADER----------------------*/
@@ -47,6 +48,156 @@ a.application{
 	font-size: 1.8rem;
 }
 /*----------------------END-HEADER--------------------*/
+
+/*-------------------------MAIN-----------------------*/
+.wrapper{
+	width: 75%;
+	margin: 0 auto;
+}
+main>header{
+	background-color: #949ba3;
+	color: #fff;
+	font-size: 3rem;
+	font-family: "Times New Roman", serif;
+	text-align: center;
+	padding: 2.5rem 0 10rem;
+}
+main>header h1{
+	font-size: 4.8rem;
+	margin-bottom: 2.5rem;
+}
+.banner{
+	background-color: #3f4142;
+	-webkit-box-shadow: 0 0 9.5px 0.5px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0 0 9.5px 0.5px rgba(0, 0, 0, 0.75);
+	box-shadow: 0 0 9.5px 0.5px rgba(0, 0, 0, 0.75);
+	filter: progid:DXImageTransform.Microsoft.dropshadow (0 0 9.5px 0.5px rgba(0, 0, 0, 0.75));
+	background-image: url(../images/banner_img.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: -6rem;
+	margin-bottom: 7rem;
+}
+.banner form{
+	width: 30%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 3.8rem 0;
+	font-family: 'Verdana', sans-serif;
+	color: #fff;
+}
+.banner form h1{
+	font-size: 2.4rem;
+	margin-bottom: 2rem;
+}
+.banner form p{
+	font-size: 1.6rem;
+	margin-bottom: 3rem;
+	line-height: 2.4rem;
+}
+.banner input{
+	display: block;
+	box-sizing: border-box;
+	width: 75%;
+	margin: 1.5rem auto;
+	padding: 0.8rem 2rem;
+	font-size: 1.2rem;
+	color: #000;
+	background-color: #e4e4e4;
+}
+.banner input[type="submit"]{
+	width: 85%;
+	margin-top: 3rem;
+	background-color: rgb(243, 175, 0);
+	background-image: -webkit-linear-gradient(bottom, rgb(145, 145, 145) 0%, rgb(228, 228, 228) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(145, 145, 145) 0%, rgb(228, 228, 228) 100%);
+	background-image: linear-gradient(to top, rgb(145, 145, 145) 0%, rgb(228, 228, 228) 100%);
+	text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+	font-family: 'Tahoma', sans-serif;
+	font-size: 1.8rem;
+	color: #fff;
+	margin-bottom: 0;
+}
+.specification{
+	background-color: #d1d1d1;
+	font-family: 'Verdana', sans-serif;
+	color: #3b3d3e;
+	padding: 5rem 0 3.5rem;
+	text-align: center;
+}
+.specification h1{
+	font-size: 3.6rem;
+	margin-bottom: 6rem;
+}
+.flexbox{
+	display: flex;
+	justify-content: space-between;
+}
+.specification .steps{
+	width: 16%;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	padding-top: 14rem;
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+.step-one{
+	background-image: url(../images/step-one.png);
+}
+.step-two{
+	background-image: url(../images/step-two.png);
+}
+.step-three{
+	background-image: url(../images/step-three.png);
+}
+.step-four{
+	background-image: url(../images/step-four.png);
+}
+.actions{
+	background-color: #80807f;
+	font-family: 'Verdana', sans-serif;
+	text-align: center;
+	color: #fff;
+	padding: 5rem 0 6rem;
+}
+.actions h1{
+	font-size: 3.6rem;
+	margin-bottom: 2.5rem;
+}
+.actions p{
+	font-size: 1.8rem;
+	margin-bottom: 4rem;
+}
+.actions mark{
+	color: #f3af00;
+	background-color: #80807f;
+}
+.actions input{
+	width: 21.1rem;
+	box-sizing: border-box;
+	padding: 0.8rem 2rem;
+	font-size: 1.2rem;
+	color: #000;
+	background-color: #e4e4e4;
+	margin-right: 3rem;
+}
+.actions input[type="submit"]{
+/*	width: 211px;
+	height: 30px;*/
+	padding: 0.6rem;
+	background-color: #f3af00;
+	background-image: -webkit-linear-gradient(bottom, #b07f00 0%, #f3af00 100%);
+	background-image: -o-linear-gradient(bottom, #b07f00 0%, #f3af00 100%);
+	background-image: linear-gradient(to top, #b07f00 0%, #f3af00 100%);
+	text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+	color: #fff;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 1.6rem;
+}
+/*-----------------------END-MAIN---------------------*/
 
 /*------------------------FOOTER----------------------*/
 footer{
