@@ -4,6 +4,8 @@ html{
 body{
 	width: 100%;
 }
+
+/*-----------------------HEADER----------------------*/
 header{
 	background-color: #3f4142;
 }
@@ -44,3 +46,21 @@ a.application{
 	color: #f3af00;
 	font-size: 1.8rem;
 }
+/*----------------------END-HEADER--------------------*/
+
+/*------------------------FOOTER----------------------*/
+footer{
+	background-color: #3f4142;
+	background-image: url(../images/footer-bg.png);
+	background-repeat: repeat-x repeat-y;
+	padding: 6.5rem 0;
+	margin-top: 3rem;
+}
+footer p{
+	width: 75%;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Verdana', sans-serif;
+	font-size: 1.4rem;
+}
+/*---------------------END-FOOTER---------------------*/
